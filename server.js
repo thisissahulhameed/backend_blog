@@ -28,5 +28,6 @@ app.use(userRouter)
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
+  console.log("this is for testing purpose");
   console.log(`server starts at ${port}`);
 });
